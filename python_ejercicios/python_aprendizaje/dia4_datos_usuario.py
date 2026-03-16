@@ -1,0 +1,11 @@
+nombre = input("Escribe aquí tu nombre: ")
+edad = int(input("Escribe aquí tu edad: "))
+ciudad = input("Escribe la ciudad donde vives: ")
+altura = float(input("Escribe tu altura en metros: "))
+
+print(f"Hola {nombre}")
+print(f"Tienes {edad} años")
+print(f"Vives en {ciudad}")
+print(f"Mides {altura}m")
+print(f"En 5 años tendrás {edad + 5} años")
+print(f"Tu altura en pies es {altura * 3.281}")
